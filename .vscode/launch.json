@@ -6,16 +6,32 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PoeDropNotifsPluginTest",
+            "request": "launch",
+            "mainClass": "com.PoeDropNotifs.PoeDropNotifsPluginTest",
+            "projectName": "example",
+            "vmArgs": "-ea"
+        },
+        {
+            "type": "java",
+            "name": "PoeDropNotifsPluginTest",
+            "request": "launch",
+            "mainClass": "com.PoeDropNotifs.PoeDropNotifsPluginTest",
+            "projectName": "PoeDropNotifs",
+            "vmArgs": "-ea"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
         {
             "type": "java",
-            "name": "ExamplePluginTest",
+            "name": "PoeDropNotifsPluginTest",
             "request": "launch",
-            "mainClass": "com.example.ExamplePluginTest",
-            "projectName": "example",
+            "mainClass": "com.PoeDropNotifs.PoeDropNotifsPluginTest",
+            "projectName": "PoeDropNotifs",
             "vmArgs": "-ea"
         }
     ]

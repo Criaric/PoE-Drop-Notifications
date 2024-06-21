@@ -1,11 +1,11 @@
-package com.example;
+package com.PoeDropNotifs;
 
 import net.runelite.api.ItemID;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("PoeDropNotifs")
 public interface POEDropNotifConfig extends Config
 {
 	// @ConfigItem(
