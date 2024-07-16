@@ -245,6 +245,7 @@ public class POEDropNotifPlugin extends Plugin
 				
 				clip.setFramePosition(clip.getFrameLength());
 				clip.loop(1);
+				clip.close();
 			}
 		}else if(itemIds1.contains(item.getId())) {
 			try (InputStream fileStream = new BufferedInputStream(Files.newInputStream(SOUND_FILE1.toPath()));
@@ -262,6 +263,7 @@ public class POEDropNotifPlugin extends Plugin
 				
 				clip.setFramePosition(clip.getFrameLength());
 				clip.loop(1);
+				clip.close();
 			}
 		}else if(itemIds2.contains(item.getId())) {
 			try (InputStream fileStream = new BufferedInputStream(Files.newInputStream(SOUND_FILE2.toPath()));
@@ -279,6 +281,7 @@ public class POEDropNotifPlugin extends Plugin
 				
 				clip.setFramePosition(clip.getFrameLength());
 				clip.loop(1);
+				clip.close();
 			}
 		}else if(itemIds3.contains(item.getId())) {
 			try (InputStream fileStream = new BufferedInputStream(Files.newInputStream(SOUND_FILE3.toPath()));
@@ -296,6 +299,7 @@ public class POEDropNotifPlugin extends Plugin
 				
 				clip.setFramePosition(clip.getFrameLength());
 				clip.loop(1);
+				clip.close();
 			}
 		}
 
